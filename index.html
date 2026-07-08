@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasty Food</title>
+    
+</head>
+<body>
+<!--nav bar-->
+<nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#order">orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-disabled="true">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-info" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--carousal-->
+
+  
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/Carousal-1.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-dark">Non-veg option</h2>
+        <p class="text-dark">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/Carousal-2.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-dark">veg options</h2>
+        <p class="text-dark">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/Carousal-3.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-dark">Chinese-Food</h2>
+        <p class="text-dark">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--order section-->
+<h1 class="fw-bold text-center text-warning">Explore Our Special Menu</h1>  
+
+<div class="container" id="order">
+  <div class="row my-4">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/Biriyani.webp" class="card-img-top" alt="biriyani">
+  <div class="card-body">
+    <h5 class="card-title">Tasty chiken biriyani</h5>
+    <h4 class="card-title text-danger">Rs: 150.00</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/Beef.jpg" class="card-img-top" alt="beef">
+  <div class="card-body">
+    <h5 class="card-title">Grilled Beef</h5>
+    <h4 class="card-title text-danger">Rs: 200</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/Dosha.jpg" class="card-img-top" alt="dosha">
+  <div class="card-body">
+    <h5 class="card-title">Masala Dosha</h5>
+    <h4 class="card-title text-danger">Rs: 40</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="row my-3">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/Fish.jpg" class="card-img-top" alt="fish">
+  <div class="card-body">
+    <h5 class="card-title">Spicy Fish Fry</h5>
+    <h4 class="card-title text-danger">Rs: 80</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+</div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/idali.jpg" class="card-img-top" alt="idali">
+  <div class="card-body">
+    <h5 class="card-title">Idali</h5>
+    <h4 class="card-title text-danger">Rs: 20</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center border-2 border-dark" style="width: 18rem;">
+  <img src="image/Sambar.jpg" class="card-img-top" alt="sabar">
+  <div class="card-body">
+    <h5 class="card-title">Sambar</h5>
+    <h4 class="card-title text-danger">Rs: 20</h4>
+    <a href="#" class="btn btn-success">Order Now</a>
+  </div>
+</div>
+    </div>
+  </div>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid bg-dark text-white">
+    <div class="row">
+      <div class="col-6">
+        <h1 class="text-white">Tasty Food Resturant</h1>
+      <h4>kochi</h4>
+      <h4>kerala</h4>
+      <p>Tel: 04962244</p>
+      <p>Email: Tasty@email.com</p>
+      <p>Website: www.tasty.com</p>
+      </div>
+      <div class="col-6"></div>
+    </div>
+
+  </div>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
